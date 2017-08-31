@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 export interface MomentProps {
+    interval?: number;
     element?: string | React.SFC<any> | React.ComponentClass<any>;
     date?: string | number | Array<any> | object;
     parse?: string | Array<any>;
